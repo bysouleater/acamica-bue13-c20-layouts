@@ -1,0 +1,81 @@
+html, body {
+  background-color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.editor-de-mazo {
+  width: 1000px;
+}
+
+.coleccion {
+  width: 750px;
+}
+
+.mazo {
+  width: 250px;
+}
+
+.carta {
+  width: 135px;
+  height: 200px;
+  margin: 10px 5px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.carta.sugerencia {
+  background-color: #444488;
+}
+
+.carta-en-mazo {
+  padding: 3px 10px;
+  margin: 2px 0;
+  border-radius: 15px;
+}
+
+.carta-negra {
+  background-color: grey;
+}
+
+.carta-verde {
+  background-color: green;
+}
+
+.buscador {
+  width: 200px;
+  background-color: black;
+  color: grey;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.filtros .color {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: black;
+  color: grey;
+  text-align: center;
+  line-height: 30px;
+}
+
+.imagen {
+  width: 100px;
+  height: 60px;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.nombre {
+  color: #CCC;
+}
+
+.boton {
+  width: 180px;
+  border-radius: 15px;
+  padding: 5px 10px;
+  background-color: #444488;
+  color: #CCC;
+  border: 0;
+  font-size: 18px;
+}

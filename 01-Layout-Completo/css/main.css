@@ -1,0 +1,112 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+}
+
+.tablero {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.mano-biblioteca-cementerio {
+  height: 120px;
+  background-color: #005500;
+  position: relative;
+  text-align: center;
+}
+
+.mano-biblioteca-cementerio .mano {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.mano-biblioteca-cementerio .biblioteca {
+  float: right;
+}
+
+.mano-biblioteca-cementerio .cementerio {
+  float: right;
+}
+
+.criaturas {
+  height: 120px;
+  background-color: #007700;
+  text-align: center;
+}
+
+.tierras {
+  height: 100px;
+  background-color: #006600;
+  padding-left: 60px;
+}
+
+.tierras .carta {
+  margin-left: -30px;
+}
+
+.mano .carta {
+  margin-left: -25px;
+}
+
+.avatar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -25px;
+  background-color: burlywood;
+  width: 70px;
+  height: 70px;
+  border-radius: 60px;
+  z-index: 2;
+}
+
+.carta {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 6px 6px;
+  display: inline-block;
+}
+
+.carta.boca-arriba {
+  background-color: white;
+}
+
+.carta.boca-abajo {
+  background-color: darkgoldenrod;
+}
+
+.carta.carta-cuadrada {
+  width: 80px;
+  height: 80px;
+}
+
+.carta.carta-cuadrada-grande {
+  width: 100px;
+  height: 100px;
+}
+
+.carta.carta-rectangular {
+  width: 70px;
+  height: 100px;
+}
+
+.carta.carta-girada {
+  transform: rotate(20deg);
+}
+
+.jugador .avatar {
+  top: -25px;
+  bottom: auto;
+}
+
+.jugador .cementerio {
+  float: left;
+}
+
+.jugador .biblioteca {
+  float: left;
+}
